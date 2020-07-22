@@ -1,0 +1,12 @@
+ ## This program takes a text input and reverses it for the output
+
+print('Put in the text you would like to reverse.')
+plaintext = input('\n> ')
+translated = ''
+
+i = len(plaintext) - 1
+while i >= 0:
+    translated = translated + plaintext[i]
+    i = i - 1
+
+print(translated)
